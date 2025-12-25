@@ -49,3 +49,26 @@ export const WindyIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     <path d="M12.6 19.4A2 2 0 1 0 14 16H2" />
   </svg>
 );
+
+export const FoggyIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <path d="M2 12h20" />
+        <path d="M2 17h20" />
+        <path d="M2 7h20" />
+    </svg>
+);
+
+export const HazyIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+        <path d="M2 12h20" />
+        <path d="M2 17h20" />
+        <path d="M12 2v2" />
+        <path d="M12 20v2" />
+        <path d="m4.9 4.9 1.4 1.4" />
+        <path d="m17.7 17.7 1.4 1.4" />
+        <path d="M22 12h-2" />
+        <path d="M4 12H2" />
+        <path d="m4.9 19.1 1.4-1.4" />
+        <path d="m17.7 6.3 1.4-1.4" />
+    </svg>
+);

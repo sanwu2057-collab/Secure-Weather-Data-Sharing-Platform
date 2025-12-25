@@ -1,5 +1,5 @@
 {
   "name": "Secure Weather Ledger",
-  "description": "A web application that demonstrates a blockchain-inspired concept for sharing secure weather data. Users can select a country to fetch the latest weather information, which is then added as a new, immutable 'block' to a visual chain.",
+  "description": "A web application demonstrating a blockchain-inspired concept for sharing secure, comprehensive weather data. Fetch detailed climate information for various countries, including metrics vital for farmers, agri-tech, disaster management, and transport sectors. Each report is added as an immutable 'block' to a visual chain.",
   "requestFramePermissions": []
 }
